@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+body {
+    background-image: url(./bg-discord.png);
+    background-attachment: scroll;
+    background-size: 100%;
+}
+header {
+    background-color: #333333;
+    color: white;
+    height: 85px;
+    box-sizing: border-box;
+    position: relative;
+}
+footer {
+    background-color: #333333;
+    color: white;
+    width: 100%;
+    position: absolute;
+    padding: 1em 0;
+    bottom: 0;
+    left: 0;
+}
+footer .p {
+    text-align: center;
+}
+nav {
+    float: right;
+    margin: 0 auto;
+    padding-right: 10%;
+    padding-top: 35px;
+    box-sizing: border-box;
+    display: inline;
+}
+nav li {
+    display: inline;
+    padding: 10px;
+    box-sizing: border-box;
+}
+nav li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+ul {
+    text-align: right;
+}
+h1 {
+    text-transform: uppercase;
+    padding-left: 10%;
+    margin: 0 auto;
+    display: inline;
+    position: absolute;
+    padding-top: 25px;
+}
+footer .container {
+    text-align: center;
+}
+.hero {
+    background: 
+        url('./hero.png') center/cover no-repeat,
+        linear-gradient(135deg, #8547c6 10%, #b845c1 50%, #ab5d8a);
+    background-size: cover;
+    box-sizing: border-box;
+    width: 90%;
+    max-width: 1200px;
+    height: 150px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin: 0 auto 20px;
+    position: relative;
+}
+.hero h3 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+main .container {
+    background-color: white;
+    overflow: hidden;
+    width: 90%;
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 10px;
+}
+article {
+    float: left;
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+    max-width: fit-content;
+}
+article > h2 {
+    padding-top: 10px;
+}
+article > h2, article > p {
+    padding-left: 20px;
+}
+main {
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+}
+.inside {
+    overflow: hidden;
+    width: fit-content;
+    padding: 10px;
+}
+.card {
+    float: left;
+    width: calc(33% - 20px);
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0 auto;
+}
+aside {
+    float: right;
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+aside .news {
+    margin-bottom: 20px;
+}
+.news .date {
+    font-style: italic;
+}
+
